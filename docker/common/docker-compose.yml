@@ -1,0 +1,6 @@
+version: '1'
+services:
+  booklibservice:
+      image: rjguanwen/booklibrary:0.1
+      ports:
+        - "8088:8088"

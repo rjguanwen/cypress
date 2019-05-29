@@ -17,4 +17,3 @@
    
    或者：
    **docker run -it --rm -p 8060:8060 --name booklibrary rjguanwen/booklibrary:0.1**
-

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.rjguanwen.booklib.mapper.UserMapper">
+<mapper namespace="cn.rjguanwen.booklibrary.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="cn.rjguanwen.booklib.entity.User">
+    <resultMap id="BaseResultMap" type="cn.rjguanwen.booklibrary.entity.User">
         <result column="user_id" jdbcType="INTEGER" property="userId" />
         <result column="user_name" jdbcType="VARCHAR" property="userName" />
         <result column="password" jdbcType="VARCHAR" property="password" />
@@ -30,14 +30,14 @@
         WHERE id = #{id}
     </select>
 
-    <insert id="insert" parameterType="cn.rjguanwen.booklib.entity.User" >
+    <insert id="insert" parameterType="cn.rjguanwen.booklibrary.entity.User" >
        INSERT INTO
             user (user_name,password,about_me)
         VALUES
             (#{userName}, #{password}, #{aboutMe})
     </insert>
 
-    <update id="update" parameterType="cn.rjguanwen.booklib.entity.User" >
+    <update id="update" parameterType="cn.rjguanwen.booklibrary.entity.User" >
         UPDATE
         user
         SET

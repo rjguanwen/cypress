@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.rjguanwen.booklib.mapper.BookMapper">
+<mapper namespace="cn.rjguanwen.booklibrary.mapper.BookMapper">
 
-    <resultMap id="BaseResultMap" type="cn.rjguanwen.booklib.entity.Book">
+    <resultMap id="BaseResultMap" type="cn.rjguanwen.booklibrary.entity.Book">
         <result column="id" jdbcType="INTEGER" property="id" />
         <result column="book_name" jdbcType="VARCHAR" property="bookName" />
         <result column="publisher" jdbcType="VARCHAR" property="publisher" />
@@ -37,14 +37,14 @@
         WHERE id = #{id}
     </select>
 
-    <insert id="insertBook" parameterType="cn.rjguanwen.booklib.entity.Book" >
+    <insert id="insertBook" parameterType="cn.rjguanwen.booklibrary.entity.Book" >
        INSERT INTO
             books_in_one (book_name, publisher, can_borrow, suitable_ages, has_pinyin, is_english, store_area, book_tags, user_id, note)
         VALUES
             (#{bookName}, #{publisher}, #{canBorrow}, #{suitableAges}, #{hasPinyin}, #{isEnglish}, #{storeArea}, #{bookTags}, #{userId}, #{note})
     </insert>
 
-    <update id="updateBook" parameterType="cn.rjguanwen.booklib.entity.Book" >
+    <update id="updateBook" parameterType="cn.rjguanwen.booklibrary.entity.Book" >
         UPDATE
         books_in_one
         SET

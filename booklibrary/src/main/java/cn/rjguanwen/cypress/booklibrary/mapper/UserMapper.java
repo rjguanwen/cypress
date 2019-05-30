@@ -1,6 +1,6 @@
 package cn.rjguanwen.cypress.booklibrary.mapper;
 
-import cn.rjguanwen.booklib.entity.User;
+import cn.rjguanwen.cypress.booklibrary.entity.User;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

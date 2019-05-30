@@ -1,6 +1,6 @@
 package cn.rjguanwen.cypress.booklibrary.mapper;
 
-import cn.rjguanwen.booklib.entity.Book;
+import cn.rjguanwen.cypress.booklibrary.entity.Book;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

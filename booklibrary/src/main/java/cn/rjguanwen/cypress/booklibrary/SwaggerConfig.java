@@ -32,7 +32,7 @@ public class SwaggerConfig {
                 // 是否开启
                 .enable(swaggerEnable).select()
                 // 扫描的路径包
-                .apis(RequestHandlerSelectors.basePackage("cn.rjguanwen.booklib"))
+                .apis(RequestHandlerSelectors.basePackage("cn.rjguanwen.cypress.booklibrary"))
                 // 制指定径处理
                 .paths(PathSelectors.any()).build().pathMapping("/");
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.rjguanwen.booklibrary.mapper.BookBorrowRecordMapper">
-    <resultMap id="BaseResultMap" type="cn.rjguanwen.booklibrary.entity.BookBorrowRecord">
+<mapper namespace="cn.rjguanwen.cypress.booklibrary.mapper.BookBorrowRecordMapper">
+    <resultMap id="BaseResultMap" type="cn.rjguanwen.cypress.booklibrary.entity.BookBorrowRecord">
         <result column="id" jdbcType="INTEGER" property="id" />
         <result column="book_id" jdbcType="INTEGER" property="bookId" />
         <result column="book_name" jdbcType="VARCHAR" property="bookName" />
@@ -28,7 +28,7 @@
         WHERE id = #{id}
     </select>
 
-    <insert id="insertBookBR" parameterType="cn.rjguanwen.booklibrary.entity.BookBorrowRecord">
+    <insert id="insertBookBR" parameterType="cn.rjguanwen.cypress.booklibrary.entity.BookBorrowRecord">
         insert into book_borrow_record
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="bookId != null">

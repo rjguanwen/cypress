@@ -1,6 +1,6 @@
 package cn.rjguanwen.cypress.booklibrary.controller;
 
-import cn.rjguanwen.booklib.service.UserService;
+import cn.rjguanwen.cypress.booklibrary.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

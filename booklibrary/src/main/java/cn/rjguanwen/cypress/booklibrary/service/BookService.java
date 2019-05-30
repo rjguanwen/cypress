@@ -1,7 +1,7 @@
 package cn.rjguanwen.cypress.booklibrary.service;
 
-import cn.rjguanwen.booklib.entity.Book;
-import cn.rjguanwen.booklib.mapper.BookMapper;
+import cn.rjguanwen.cypress.booklibrary.entity.Book;
+import cn.rjguanwen.cypress.booklibrary.mapper.BookMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

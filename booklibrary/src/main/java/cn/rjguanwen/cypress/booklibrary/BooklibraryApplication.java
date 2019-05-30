@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-@MapperScan("cn.rjguanwen.booklib.mapper") //扫描的mapper
+@MapperScan("cn.rjguanwen.cypress.booklibrary.mapper") //扫描的mapper
 @SpringBootApplication
 public class BooklibraryApplication  extends SpringBootServletInitializer {
 

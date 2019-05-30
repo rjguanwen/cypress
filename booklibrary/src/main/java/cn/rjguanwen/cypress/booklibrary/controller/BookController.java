@@ -1,9 +1,9 @@
 package cn.rjguanwen.cypress.booklibrary.controller;
 
-import cn.rjguanwen.booklib.entity.Book;
-import cn.rjguanwen.booklib.service.BookService;
-import cn.rjguanwen.booklib.util.CommonResult.Result;
-import cn.rjguanwen.booklib.util.CommonResult.StatusConstants;
+import cn.rjguanwen.cypress.booklibrary.entity.Book;
+import cn.rjguanwen.cypress.booklibrary.service.BookService;
+import cn.rjguanwen.cypress.booklibrary.util.CommonResult.Result;
+import cn.rjguanwen.cypress.booklibrary.util.CommonResult.StatusConstants;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;

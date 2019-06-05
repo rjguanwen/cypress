@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: ENC(ykYC+9HTgKhPeLq42jO7mw==)
+    password: ENC(uWQFqJ4DD4niAYctp8368w==)
+    url: ENC(WxNL4+an5PhUgExz+F6ecgjuw9Q0SbR9m9MZ1XHhgiY/kZ825otmerUsJLTffxSu6szlqBaIa5wDo0e9NfMWOiW3As0KdhUOGLPU4uoh+a846D3zBGH9XnFgQEZPBFWF4PGUCseLEq84O472OVbiL0iZqxP7NeV8)
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 使用 druid 数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#jasypt加密的密匙
+jasypt:
+  encryptor:
+    password: laystbzqzygwcs

@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <springfox.version>2.8.0</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
         <start-class>cn.rjguanwen.cypress.booklibrary.BooklibraryApplication</start-class>
         <docker.image.name>rjguanwen/booklibrary</docker.image.name>
         <docker.image.tag>0.1</docker.image.tag>
